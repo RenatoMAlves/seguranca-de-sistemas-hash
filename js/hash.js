@@ -14,8 +14,9 @@ function visualizarHash(idElemento){
 }
 
 function comparaHash(){
-    if(hashfile1 == '' || hashfile2 =='')
+    if(hashfile1 == '' || hashfile2 ==''){
         alert("O hash de um dos arquivos não foi gerado");
+    }
     else{
         if(hashfile1.toString() == hashfile2.toString())
             alert("Os arquivos possuem hashs iguais");
